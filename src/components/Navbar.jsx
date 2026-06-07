@@ -38,6 +38,7 @@ export default function Navbar() {
           <li><button onClick={() => scrollTo('features')}>Funcionalidades</button></li>
           <li><button onClick={() => scrollTo('demo')}>Demo</button></li>
           <li><button onClick={() => scrollTo('clients')}>Clientes</button></li>
+          <li><button onClick={() => scrollTo('faq')}>Dúvidas</button></li>
           <li>
             <a
               href="https://wa.me/5511948391961?text=Oi%2C+vim+pelo+site+da+Zapfly+AI+e+quero+saber+mais!"

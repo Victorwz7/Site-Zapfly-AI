@@ -26,6 +26,10 @@
   font-size: 0.9rem;
   color: var(--text-secondary);
   transition: color var(--transition-fast);
+  padding: 10px 12px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
 }
 
 .footer__links a:hover {

@@ -1,13 +1,11 @@
 import './Clients.css'
 
 const clients = [
-  'Oliveira Drops',
-  'ParesiNK',
-  'Vittinho Imports',
-  'Corre do Rocha',
-  'Oliveira Store',
-  'Royal7',
-  'Perife Style',
+  { name: 'Oliveira Drops', logo: '/oliveira-drops-logo.png' },
+  { name: 'Vittinho Imports', logo: '/vittinho-imports-logo.png' },
+  { name: 'Oliveira Store', logo: '/oliveira-store-logo.png' },
+  { name: 'Royal7', logo: '/royal7-logo.png' },
+  { name: 'Perife Style', logo: '/perife-style-logo.png' },
 ]
 
 export default function Clients() {
@@ -28,9 +26,12 @@ export default function Clients() {
 
       <div className="clients__marquee">
         <div className="clients__track">
-          {duplicated.map((name, i) => (
+          {duplicated.map((client, i) => (
             <div className="clients__item" key={i}>
-              <span className="clients__name">{name}</span>
+              <div className="clients__avatar">
+                <img src={client.logo} alt={`Logo ${client.name}`} className="clients__logo" />
+              </div>
+              <span className="clients__name">{client.name}</span>
             </div>
           ))}
         </div>
