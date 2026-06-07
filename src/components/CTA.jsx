@@ -14,7 +14,7 @@ export default function CTA() {
             Fale com a gente agora e veja como a IA pode transformar seu atendimento.
           </p>
           <a
-            href="https://wa.me/5511970117565?text=Oi%2C+vim+pelo+site+da+Zapfly+AI+e+quero+saber+mais!"
+            href="https://wa.me/5511948391961?text=Oi%2C+vim+pelo+site+da+Zapfly+AI+e+quero+saber+mais!"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary cta__btn"

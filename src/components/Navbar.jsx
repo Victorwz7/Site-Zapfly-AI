@@ -40,7 +40,7 @@ export default function Navbar() {
           <li><button onClick={() => scrollTo('clients')}>Clientes</button></li>
           <li>
             <a
-              href="https://wa.me/5511970117565?text=Oi%2C+vim+pelo+site+da+Zapfly+AI+e+quero+saber+mais!"
+              href="https://wa.me/5511948391961?text=Oi%2C+vim+pelo+site+da+Zapfly+AI+e+quero+saber+mais!"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary navbar__cta"

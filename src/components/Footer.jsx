@@ -13,13 +13,13 @@ export default function Footer() {
         </div>
         <div className="footer__links">
           <a
-            href="https://wa.me/5511970117565"
+            href="https://wa.me/5511948391961"
             target="_blank"
             rel="noopener noreferrer"
           >
             WhatsApp
           </a>
-          <a href="https://instagram.com/zapflyai" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/zapflyai/" target="_blank" rel="noopener noreferrer">
             Instagram
           </a>
         </div>
